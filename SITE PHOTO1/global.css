@@ -1,0 +1,119 @@
+body {
+    background-image: url("images/foret.jpg");
+    color: white;
+}
+
+
+/*bloc_titre.html*/
+
+#titre1 {
+    position: absolute;
+    left: 490px;
+    font-family: "Pickle Juice_PersonalUseOnly";
+    color: #ffffff;
+    text-align: center;
+    font-size: 33px;
+    padding: 50px;
+    margin: 23px auto;
+}
+
+h2 {
+    position: absolute;
+    left: -30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 33px;
+    padding: 50px;
+    width: 95%;
+    margin: auto;
+    margin-top: -90px;
+}
+
+
+/*bloc_menu.html*/
+
+#menu_principal {
+    position: relative;
+    top: 0px;
+}
+
+#menu-demo2,
+#menu-demo2 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+
+#menu-demo2 li {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+    top: 0px;
+}
+
+#menu-demo2 a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 20px;
+    color: #7F4C00;
+    font-family: "All The Roll - Personal Use";
+}
+
+li a {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.6em;
+    color: #7F4C00;
+    text-transform: uppercase;
+}
+
+li a:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+li a:hover:after {
+    width: 90%;
+    background: #7F4C00;
+}
+
+
+/*accueil.html*/
+
+#titre3 {
+    position: absolute;
+    left: 430px;
+    font-family: "Pickle Juice_PersonalUseOnly";
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    margin: 100px auto;
+}
+
+
+/*bloc_pied.html*/
+
+footer {
+    background: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding-top: 10px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+}
